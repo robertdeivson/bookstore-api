@@ -19,12 +19,12 @@ public class DBService {
 	private LivroRepository livroRepository;
 
 	public void instanciaBaseDeDados() {
-		Categoria cat1 = new Categoria(null, "Informática", "Livros de Informatica");
-		Categoria cat2 = new Categoria(null, "Ficcao Cientifica", "Ficcao Cientifica");
+		Categoria cat1 = new Categoria(null, "Informática", "Livros de Informática");
+		Categoria cat2 = new Categoria(null, "Ficção científica", "Ficção científica");
 		Categoria cat3 = new Categoria(null, "Biografias", "Livros de Biografias");
 
 		Livro l1 = new Livro(null, "Clean code", "Robert Martin", "Lorem ipsum", cat1);
-		Livro l2 = new Livro(null, "Engenharia de Sofware", "Loius V. Gerstner", "Lorem ipsum", cat1);
+		Livro l2 = new Livro(null, "Engenharia de Software", "Loius V. Gerstner", "Lorem ipsum", cat1);
 		Livro l3 = new Livro(null, "The Time Machine", "H.G. Wells", "Lorem ipsum", cat2);
 		Livro l4 = new Livro(null, "The War of The Worlds", "H.G. Wells", "Lorem ipsum", cat2);
 		Livro l5 = new Livro(null, "I, robot", "Isaac Asimov", "Lorem ipsum", cat2);
